@@ -14,16 +14,16 @@ const logos = [
     { src: nestle, alt: 'Brand 1', className: '' },
     { src: nespresso, alt: 'Brand 2', className: '' },
     { src: purinalogo, alt: 'Brand 3', className: '' },
-    { src: nestleh, alt: 'Brand 4', className: '-translate-y-2.5' },
-    { src: cpw, alt: 'Brand 5', className: '-translate-y-2.5' }
+    { src: nestleh, alt: 'Brand 4', className: 'translate-y-6 md:-translate-y-2.5 ' },
+    { src: cpw, alt: 'Brand 5', className: 'translate-y-0 md:-translate-y-2.5' }
 ];
 
 const BrandLogos = () => {
     // Double the array for seamless looping
-    const doubledLogos = [...logos, ...logos, ...logos];
+    const doubledLogos = [...logos];
 
     return (
-        <div className="brand-logos flex justify-center gap-7">
+<div className="brand-logos flex flex-col md:flex-row justify-center gap-7 md:gap-7 items-center">
             {doubledLogos.map((logo, index) => (
                 <div key={index} className={`brand-logo ${logo.className}`}>
                    <a href=''><img src={logo.src} alt={logo.alt}/></a> 

@@ -23,16 +23,16 @@ const Hero = () => {
   
 return (
 <section className='w-full nav-height bg-white relative mb-10'>
-    <div className='w-5/6 mx-auto flex flex-col pb-10 pt-10 px-20 rounded-lg bg-orange-50 mt-6 shadow-xl'>
+    <div className='md:w-5/6 w-11/12 mx-auto flex flex-col p-6 md:p-12 bg-orange-50 mt-6 shadow-xl border border-cbrown rounded-lg'>
 
         <div className='mb-4'>
         <div className='flex items-center justify-between'>
-            <h1 className='text-4xl font-bold'>Front-End Developer, Nespresso (Temp)</h1>
+            <h1 className='text-3xl md:text-4xl font-bold'>Front-End Developer, Nespresso (Temp)</h1>
             
         </div>
-            <img src={stock} alt="Stock Photo" className='mt-10 mb-6 rounded-md drop-shadow-xl'/>
+            <img src={stock} alt="Stock Photo" className='mt-6 md:mt-10 mb-6 rounded-md drop-shadow-xl'/>
             <span className="font-semibold text-2xl">Join Nestlé Nordic – We are looking for the Power of You</span>
-            <p clasName="text-lg text-gray-700 mb-3">
+            <p clasName="text-gray-700 mb-3">
             Are you a Front-end developer that wants to continue your career within an FMCG company? Do you also want to work within e-commerce in a role where you cooperate with a wide range of stakeholders? Fantastic, then you might be our new colleague!
             </p>
         </div>
@@ -91,23 +91,23 @@ return (
   Follow us on LinkedIn if you would like to be notified of new Nestlé opportunities and our values. Follow us on Instagram if you want to know more about our company culture and see what it is like to work at Nestlé Nordics.
   </p>
 </div>
-<div className="mt-5 mb-4 flex flex-row font-medium">
-<span className="mr-2 text-lg text-left">Stockholm, SE</span>
+<div className="mt-5 mb-4 flex flex-row font-medium text-sm md:text-base text-center md:text-left">
+<span className="">Stockholm, SE</span>
 <li class="text-gray-400 mx-2 list-none">|</li>
-<span className="mr-2 text-lg text-left">Lysaker, NO </span>
+<span className="">Lysaker, NO </span>
 <li class="text-gray-400 mx-2 list-none">|</li>
-<span className="mr-2 text-lg text-left">Copenhagen, DK </span>
-<div className="justify-center items-center translate-y-0.5"><FontAwesomeIcon icon={faLocationDot}/></div>
+<span className="">Copenhagen, DK </span>
+<div className="ml-2 justify-center items-center translate-y-0.2"><FontAwesomeIcon icon={faLocationDot}/></div>
 </div>
 
-<div className='flex justify-center m-10'>
-    <button class="bg-white text-gray-700 border-2  border-gray-700 text-sm font-medium py-3 px-4 rounded shadow hover:bg-gray-200 transition-colors duration-300">
-        Find More Jobs
+<div className='flex justify-center items-center mx-auto w-5/6 m-10'>
+    <button className="flex items-center justify-center flex-row h-14 w-48 md:w-auto bg-white text-gray-700 border-2  border-gray-700 text-sm font-medium py-3 px-4 rounded shadow hover:bg-gray-200 transition-colors duration-300">
+       <a href='https://www.nestle.com/jobs'>Find More Jobs</a> 
     </button>
         
-    <button class="bg-blue-600 text-white border-2 border-gray-700 text-sm font-medium py-3 ml-6 px-5 rounded shadow hover:bg-blue-400 transition-colors duration-300">
+    <button className="flex items-center justify-center flex-row h-14 w-48 md:w-auto bg-blue-600 text-white border-2 border-gray-700 text-sm font-medium py-2 px-2 md:py-3 ml-6 md:px-5 rounded shadow hover:bg-blue-400 transition-colors duration-300">
         Apply Now
-        <FontAwesomeIcon className="ml-2" icon={faArrowRightToBracket} />
+        <FontAwesomeIcon className="flex mx-2 items-center justify-center" icon={faArrowRightToBracket} />
     </button>
 </div>
 
