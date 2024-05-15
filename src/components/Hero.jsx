@@ -107,7 +107,7 @@ return (
         
     <button className="flex items-center justify-center flex-row h-14 w-48 md:w-auto bg-blue-600 text-white border-2 border-gray-700 text-sm font-medium py-2 px-2 md:py-3 ml-6 md:px-5 rounded shadow hover:bg-blue-400 transition-colors duration-300">
         Apply Now
-        <FontAwesomeIcon className="flex mx-2 items-center justify-center" icon={faArrowRightToBracket} />
+        <FontAwesomeIcon className="flex ml-2 items-center justify-center" icon={faArrowRightToBracket} />
     </button>
 </div>
 
