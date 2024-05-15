@@ -32,7 +32,7 @@ return (
         </div>
             <img src={stock} alt="Stock Photo" className='mt-6 md:mt-10 mb-6 rounded-md drop-shadow-xl'/>
             <span className="font-semibold text-2xl">Join Nestlé Nordic – We are looking for the Power of You</span>
-            <p clasName="text-gray-700 mb-3">
+            <p className="text-gray-700 mb-3">
             Are you a Front-end developer that wants to continue your career within an FMCG company? Do you also want to work within e-commerce in a role where you cooperate with a wide range of stakeholders? Fantastic, then you might be our new colleague!
             </p>
         </div>
